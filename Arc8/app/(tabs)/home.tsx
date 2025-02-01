@@ -9,14 +9,9 @@ export default function Home() {
 
   return (
     <YStack f={1} backgroundColor="black">
-  const router = useRouter()
-  const [workoutName] = useState('WELCOME\nWORKOUT')
-
-  return (
-    <YStack f={1} backgroundColor="black">
       {/* Background Image/Content */}
       <Image 
-        source={require('../assets/images/workout-bg.jpg')} 
+        source={require('../../assets/images/workout-bg.jpg')}
         style={StyleSheet.absoluteFill}
       />
       
@@ -130,8 +125,6 @@ export default function Home() {
           </XStack>
         </XStack>
       </YStack>
-    </YStack>
-  )
     </YStack>
   )
 } 
